@@ -23,10 +23,10 @@
     
   "content_scripts": [
     { 
-      "matches" : ["https://login.adfox.ru/addTemplateForm*", "https://login.adfox.ru/modifyTemplateForm*"],
+      "matches" : ["*://*/addTemplateForm*", "*://*/modifyTemplateForm*"],
       "js": ["main.js"]
     }
-  ],
+ ],
     
   "web_accessible_resources": ["injected.js","copier.css"]
 }
